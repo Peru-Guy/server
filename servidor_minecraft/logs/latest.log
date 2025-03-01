@@ -1,8 +1,8 @@
-[17:54:04] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
-[17:54:04] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[21:01:59] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[21:02:00] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[17:54:04] [ForkJoinPool-1-worker-2/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[17:54:05] [main/INFO]: Loading 156 mods:
+[21:02:00] [ForkJoinPool-1-worker-2/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:02:00] [main/INFO]: Loading 156 mods:
 	- addonslib 1.20.1-1.3
 	- ae2 15.3.3
 	   \-- team_reborn_energy 3.0.0
@@ -188,82 +188,82 @@
 	   \-- mixinextras 0.4.1
 	- yungsapi 1.20-Fabric-4.0.6
 	   \-- org_javassist_javassist 3.29.2-GA
-[17:54:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:54:05] [main/INFO]: Compatibility level set to JAVA_17
-[17:54:05] [main/WARN]: Reference map 'JustEnoughResources-Fabric-1.20.1-refmap.json' for jeresources.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:54:05] [main/WARN]: Mod 'apoli' attempted to override option 'mixin.entity.collisions.suffocation', which doesn't exist, ignoring
-[17:54:05] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 2 override(s) found
-[17:54:05] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:54:05] [main/INFO]: Loaded configuration file for ModernFix 5.20.2+mc1.20.1: 64 options available, 0 override(s) found
-[17:54:05] [main/INFO]: Applying Nashorn fix
-[17:54:06] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[17:54:06] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[17:54:06] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[17:54:06] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[17:54:06] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[17:54:06] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[17:54:06] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[17:54:06] [main/WARN]: Force-disabling mixin 'block.moving_block_shapes.PistonBlockEntityMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
-[17:54:06] [main/WARN]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
-[17:54:06] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
-[17:54:06] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[17:54:06] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[17:54:07] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[17:54:07] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[17:54:07] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[17:54:07] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[17:54:09] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[17:54:09] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[17:54:09] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[17:54:09] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[17:54:09] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[17:54:12] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[17:54:12] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[17:54:12] [main/INFO]: Vanilla bootstrap took 4691 milliseconds
-[17:54:12] [main/INFO]: AddonsLib Fabric !
-[17:54:12] [main/INFO]: Loaded config amendments-common.json
-[17:54:12] [main/INFO]: Apoli 2.9.0 has initialized. Ready to power up your game!
-[17:54:12] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[17:54:12] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[17:54:12] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[17:54:12] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[17:54:12] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[17:54:12] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[17:54:12] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[17:54:12] [main/INFO]: Hello Fabric world!
-[17:54:13] [main/INFO]: Farmer's Knives loaded!
-[17:54:13] [main/INFO]: Bypassed Mojang DFU
-[17:54:13] [main/INFO]: Instantiating Mojang DFU
-[17:54:13] [main/ERROR]: No data fixer registered for anomaly
-[17:54:13] [main/ERROR]: No data fixer registered for season_sensor
-[17:54:14] [main/INFO]: Macaw's Biomes O' Plenty Loading...
-[17:54:14] [main/INFO]: Macaw's Biomes O' Plenty Is Charged !
-[17:54:14] [main/INFO]: Definitely not up to no good
-[17:54:15] [main/INFO]: Origins 1.10.0 is initializing. Have fun!
-[17:54:15] [main/INFO]: Reflections took 56 ms to scan 1 urls, producing 6 keys and 40 values
-[17:54:15] [main/INFO]: Reflections took 142 ms to scan 1 urls, producing 6 keys and 40 values
-[17:54:15] [main/INFO]: Registering Ribbit instruments...
-[17:54:15] [main/INFO]: Registering Ribbit umbrella types...
-[17:54:15] [main/INFO]: Registering Ribbit professions...
-[17:54:15] [main/INFO]: Registering Ribbit data serializers...
-[17:54:16] [main/INFO]: Loaded config supplementaries-common.json
-[17:54:16] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[17:54:16] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[17:54:16] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[17:54:16] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[17:54:16] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[17:54:16] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[17:54:16] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[17:54:16] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[17:54:16] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[17:54:17] [main/INFO]: Initialized block sets in 29ms
-[17:54:17] [main/INFO]: Loaded config moonlight-common.json
-[17:54:17] [main/INFO]: Initialized color sets in 68ms
-[17:54:17] [main/INFO]: Finished mod setup in: [0, 0, 0, 1, 0, 0, 12, 5, 0] ms
-[17:54:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:54:17] [main/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 36 ms
-[17:54:19] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[17:54:21] [main/ERROR]: Parsing error loading recipe supplementaries:integration/lapis_bricks_fd
+[21:02:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:02:01] [main/INFO]: Compatibility level set to JAVA_17
+[21:02:01] [main/WARN]: Reference map 'JustEnoughResources-Fabric-1.20.1-refmap.json' for jeresources.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:02:01] [main/WARN]: Mod 'apoli' attempted to override option 'mixin.entity.collisions.suffocation', which doesn't exist, ignoring
+[21:02:01] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 2 override(s) found
+[21:02:01] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:02:01] [main/INFO]: Loaded configuration file for ModernFix 5.20.2+mc1.20.1: 64 options available, 0 override(s) found
+[21:02:01] [main/INFO]: Applying Nashorn fix
+[21:02:01] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[21:02:01] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[21:02:01] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[21:02:01] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[21:02:01] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[21:02:01] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[21:02:02] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[21:02:02] [main/WARN]: Force-disabling mixin 'block.moving_block_shapes.PistonBlockEntityMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[21:02:02] [main/WARN]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[21:02:02] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[21:02:02] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[21:02:02] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[21:02:02] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[21:02:02] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[21:02:02] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[21:02:02] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:02:05] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[21:02:05] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:02:05] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:02:05] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[21:02:05] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[21:02:07] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[21:02:07] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[21:02:08] [main/INFO]: Vanilla bootstrap took 4815 milliseconds
+[21:02:08] [main/INFO]: AddonsLib Fabric !
+[21:02:08] [main/INFO]: Loaded config amendments-common.json
+[21:02:08] [main/INFO]: Apoli 2.9.0 has initialized. Ready to power up your game!
+[21:02:08] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[21:02:08] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[21:02:08] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[21:02:08] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[21:02:08] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[21:02:08] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[21:02:08] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[21:02:08] [main/INFO]: Hello Fabric world!
+[21:02:09] [main/INFO]: Farmer's Knives loaded!
+[21:02:09] [main/INFO]: Bypassed Mojang DFU
+[21:02:09] [main/INFO]: Instantiating Mojang DFU
+[21:02:10] [main/ERROR]: No data fixer registered for anomaly
+[21:02:10] [main/ERROR]: No data fixer registered for season_sensor
+[21:02:10] [main/INFO]: Macaw's Biomes O' Plenty Loading...
+[21:02:10] [main/INFO]: Macaw's Biomes O' Plenty Is Charged !
+[21:02:11] [main/INFO]: Definitely not up to no good
+[21:02:11] [main/INFO]: Origins 1.10.0 is initializing. Have fun!
+[21:02:11] [main/INFO]: Reflections took 58 ms to scan 1 urls, producing 6 keys and 40 values
+[21:02:11] [main/INFO]: Reflections took 13 ms to scan 1 urls, producing 6 keys and 40 values
+[21:02:11] [main/INFO]: Registering Ribbit instruments...
+[21:02:11] [main/INFO]: Registering Ribbit umbrella types...
+[21:02:11] [main/INFO]: Registering Ribbit professions...
+[21:02:11] [main/INFO]: Registering Ribbit data serializers...
+[21:02:12] [main/INFO]: Loaded config supplementaries-common.json
+[21:02:12] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21:02:12] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[21:02:12] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[21:02:12] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[21:02:12] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[21:02:12] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[21:02:12] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[21:02:12] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[21:02:12] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[21:02:13] [main/INFO]: Initialized block sets in 34ms
+[21:02:13] [main/INFO]: Loaded config moonlight-common.json
+[21:02:13] [main/INFO]: Initialized color sets in 87ms
+[21:02:13] [main/INFO]: Finished mod setup in: [0, 0, 0, 0, 0, 0, 14, 5, 1] ms
+[21:02:13] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:02:13] [main/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 40 ms
+[21:02:15] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[21:02:17] [main/ERROR]: Parsing error loading recipe supplementaries:integration/lapis_bricks_fd
 com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
 	at net.minecraft.class_1856.method_8107(class_1856.java:167) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
@@ -285,7 +285,7 @@ com.google.gson.JsonParseException: An ingredient entry needs either a tag or an
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[17:54:21] [main/ERROR]: Parsing error loading recipe supplementaries:integration/ash_bricks_fd
+[21:02:17] [main/ERROR]: Parsing error loading recipe supplementaries:integration/ash_bricks_fd
 com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
 	at net.minecraft.class_1856.method_8107(class_1856.java:167) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
@@ -307,476 +307,342 @@ com.google.gson.JsonParseException: An ingredient entry needs either a tag or an
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[17:54:21] [main/INFO]: Loaded 15 recipes
-[17:54:21] [main/INFO]: Loaded 3821 advancements
-[17:54:21] [main/INFO]: Finished loading powers from data files. Registry contains 2519 powers.
-[17:54:21] [main/INFO]: Finished loading origins from data files. Registry contains 128 origins.
-[17:54:21] [main/INFO]: Trying to read layer file: origins:origin
-[17:54:21] [main/INFO]: Trying to read layer file: origins:origin
-[17:54:21] [main/INFO]: Finished loading origin layers from data files. Read 1 layers.
-[17:54:21] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[17:54:21] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[17:54:21] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[17:54:21] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[17:54:21] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
-[17:54:21] [main/INFO]: Loaded 27 flute songs
-[17:54:21] [main/INFO]: Loaded 0 global power sets.
-[17:54:21] [main/INFO]: Applied 7 data villager trades
-[17:54:21] [main/INFO]: Finished additional setup in 0 ms
-[17:54:22] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[17:54:22] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[17:54:22] [main/INFO]: Applied 2251 biome modifications to 234 of 234 new biomes in 37.80 ms
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.TestPlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.ChannelTests for plots
-[17:54:22] [Server thread/INFO]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[17:54:22] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[17:54:22] [Server thread/INFO]: Loading properties
-[17:54:22] [Server thread/INFO]: Default game type: SURVIVAL
-[17:54:22] [Server thread/INFO]: Generating keypair
-[17:54:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:54:22] [Server thread/INFO]: Using epoll channel type
-[17:54:23] [Server thread/INFO]: Preparing level "world"
-[17:54:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:54:23] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[17:54:25] [Server thread/INFO]: Preparing spawn area: 0%
-[17:54:25] [Server thread/INFO]: Preparing spawn area: 0%
-[17:54:25] [Server thread/INFO]: Preparing spawn area: 0%
-[17:54:25] [Server thread/INFO]: Preparing spawn area: 0%
-[17:54:25] [Server thread/INFO]: Preparing spawn area: 7%
-[17:54:26] [Server thread/INFO]: Preparing spawn area: 67%
-[17:54:26] [Server thread/INFO]: Time elapsed: 2682 ms
-[17:54:26] [Server thread/INFO]: Done (3.389s)! For help, type "help"
-[17:54:26] [Server thread/WARN]: Dedicated server took 23.346 seconds to load
-[17:54:26] [Server thread/INFO]: Start loading plugin from Applied Energistics 2
-[17:54:26] [Server thread/INFO]: Start loading plugin from Balm
-[17:54:26] [Server thread/INFO]: Start loading plugin from Jade
-[17:54:26] [Server thread/INFO]: Start loading plugin from Jade
-[17:54:26] [Server thread/INFO]: Start loading plugin from Jade
-[17:54:26] [Server thread/INFO]: Start loading plugin from Supplementaries
-[17:54:26] [Server thread/INFO]: Start loading plugin from Waystones
-[17:54:26] [Server thread/INFO]: Loaded values for 28 compatible attributes.
-[17:54:26] [Server thread/INFO]: Loaded 28 values from config.
-[17:54:26] [Server thread/INFO]: Saving config file. 28 entries.
-[17:54:26] [Server thread/INFO]: Applying changes for 28 attributes.
-[17:54:26] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[17:54:26] [Server thread/INFO]: home/codespace/.python/current/bin/python /workspaces/server/msx.py<--[HERE]
-[17:54:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[17:54:50] [User Authenticator #1/INFO]: UUID of player AaAgOrAt is 177ea511-04c9-4c03-9b4a-d85a971c45e0
-[17:54:50] [Server thread/INFO]: AaAgOrAt[/127.162.156.54:34169] logged in with entity id 417 at (10.5, 92.0, 8.5)
-[17:54:50] [Server thread/INFO]: Syncing config to AaAgOrAt (177ea511-04c9-4c03-9b4a-d85a971c45e0)
-[17:54:50] [Server thread/INFO]: AaAgOrAt joined the game
-[17:55:08] [Server thread/INFO]: AaAgOrAt lost connection: Disconnected
-[17:55:08] [Server thread/INFO]: AaAgOrAt left the game
-[17:57:45] [User Authenticator #2/INFO]: UUID of player AaAgOrAt is 177ea511-04c9-4c03-9b4a-d85a971c45e0
-[17:57:45] [Server thread/INFO]: AaAgOrAt[/127.162.156.54:55047] logged in with entity id 540 at (10.5, 92.0, 8.5)
-[17:57:45] [Server thread/INFO]: Syncing config to AaAgOrAt (177ea511-04c9-4c03-9b4a-d85a971c45e0)
-[17:57:45] [Server thread/INFO]: AaAgOrAt joined the game
-[17:58:48] [Server thread/INFO]: AaAgOrAt lost connection: Disconnected
-[17:58:48] [Server thread/INFO]: AaAgOrAt left the game
-[18:11:16] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[18:11:17] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[18:11:19] [Netty Epoll Server IO #7/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[18:11:20] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[18:11:20] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[18:11:20] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[18:12:02] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[18:12:03] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[18:12:04] [Netty Epoll Server IO #7/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
+[21:02:17] [main/INFO]: Loaded 15 recipes
+[21:02:17] [main/INFO]: Loaded 3821 advancements
+[21:02:17] [main/INFO]: Finished loading powers from data files. Registry contains 2519 powers.
+[21:02:17] [main/INFO]: Finished loading origins from data files. Registry contains 128 origins.
+[21:02:17] [main/INFO]: Trying to read layer file: origins:origin
+[21:02:17] [main/INFO]: Trying to read layer file: origins:origin
+[21:02:17] [main/INFO]: Finished loading origin layers from data files. Read 1 layers.
+[21:02:17] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[21:02:17] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[21:02:17] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[21:02:17] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[21:02:17] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
+[21:02:17] [main/INFO]: Loaded 27 flute songs
+[21:02:17] [main/INFO]: Loaded 0 global power sets.
+[21:02:18] [main/INFO]: Applied 7 data villager trades
+[21:02:18] [main/INFO]: Finished additional setup in 0 ms
+[21:02:18] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[21:02:18] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[21:02:18] [main/INFO]: Applied 2251 biome modifications to 234 of 234 new biomes in 34.15 ms
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.TestPlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.ChannelTests for plots
+[21:02:18] [Server thread/INFO]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[21:02:18] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:02:18] [Server thread/INFO]: Loading properties
+[21:02:18] [Server thread/INFO]: Default game type: SURVIVAL
+[21:02:18] [Server thread/INFO]: Generating keypair
+[21:02:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:02:18] [Server thread/INFO]: Using epoll channel type
+[21:02:19] [Server thread/INFO]: Preparing level "world"
+[21:02:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:02:19] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[21:02:21] [Server thread/INFO]: Preparing spawn area: 0%
+[21:02:21] [Server thread/INFO]: Preparing spawn area: 0%
+[21:02:21] [Server thread/INFO]: Preparing spawn area: 0%
+[21:02:21] [Server thread/INFO]: Preparing spawn area: 0%
+[21:02:21] [Server thread/INFO]: Preparing spawn area: 0%
+[21:02:22] [Server thread/INFO]: Preparing spawn area: 22%
+[21:02:22] [Server thread/INFO]: Preparing spawn area: 89%
+[21:02:22] [Server thread/INFO]: Time elapsed: 3058 ms
+[21:02:22] [Server thread/INFO]: Done (3.606s)! For help, type "help"
+[21:02:22] [Server thread/WARN]: Dedicated server took 24.007 seconds to load
+[21:02:22] [Server thread/INFO]: Start loading plugin from Applied Energistics 2
+[21:02:22] [Server thread/INFO]: Start loading plugin from Balm
+[21:02:22] [Server thread/INFO]: Start loading plugin from Jade
+[21:02:22] [Server thread/INFO]: Start loading plugin from Jade
+[21:02:22] [Server thread/INFO]: Start loading plugin from Jade
+[21:02:22] [Server thread/INFO]: Start loading plugin from Supplementaries
+[21:02:22] [Server thread/INFO]: Start loading plugin from Waystones
+[21:02:23] [Server thread/INFO]: Loaded values for 28 compatible attributes.
+[21:02:23] [Server thread/INFO]: Loaded 28 values from config.
+[21:02:23] [Server thread/INFO]: Saving config file. 28 entries.
+[21:02:23] [Server thread/INFO]: Applying changes for 28 attributes.
+[21:02:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[21:05:55] [User Authenticator #1/INFO]: UUID of player AaAgOrAt is 177ea511-04c9-4c03-9b4a-d85a971c45e0
+[21:05:56] [Server thread/INFO]: AaAgOrAt[/192.168.193.78:53730] logged in with entity id 399 at (10.823726289164687, 92.0, 8.406295549060856)
+[21:05:56] [Server thread/INFO]: Syncing config to AaAgOrAt (177ea511-04c9-4c03-9b4a-d85a971c45e0)
+[21:05:56] [Server thread/INFO]: AaAgOrAt joined the game
+[21:06:07] [Server thread/INFO]: Player literal{AaAgOrAt} chose Origin: origins:human, for layer: origins:origin
+[21:06:23] [Server thread/INFO]: AaAgOrAt was shot by Skeleton
+[21:06:35] [Server thread/INFO]: Made AaAgOrAt a server operator
+[21:06:38] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[21:07:12] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Spectator Mode]
+[21:07:19] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=202, y=47, z=211}
+[21:08:04] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[21:08:43] [User Authenticator #2/INFO]: UUID of player Smurfcz is ee014088-2fe9-4d82-b545-ead2e808306a
+[21:08:43] [Server thread/INFO]: Smurfcz[/192.168.193.3:62829] logged in with entity id 2259 at (0.30000001192092896, 94.0, 7.481127504137469)
+[21:08:43] [Server thread/INFO]: Syncing config to Smurfcz (ee014088-2fe9-4d82-b545-ead2e808306a)
+[21:08:43] [Server thread/INFO]: Smurfcz joined the game
+[21:09:00] [Server thread/INFO]: Player literal{AaAgOrAt} chose Origin: origins:shulk, for layer: origins:origin
+[21:09:01] [Server thread/INFO]: Player literal{Smurfcz} chose Origin: origins-plus-plus:child_of_cthulhu, for layer: origins:origin
+[21:09:01] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Spectator Mode]
+[21:09:03] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[21:09:04] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[21:09:54] [Server thread/INFO]: Player literal{AaAgOrAt} chose Origin: origins:enderian, for layer: origins:origin
+[21:10:34] [pool-4-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy]] from pos class_2338{x=373, y=92, z=405}
+[21:10:36] [Server thread/WARN]: AaAgOrAt moved too quickly! 8.203481357225996,0.2277792520400368,-5.981342420310398
+[21:10:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3486ms or 69 ticks behind
+[21:10:38] [Server thread/WARN]: AaAgOrAt moved too quickly! 7.735119508480693,-0.8291870918577047,-6.425827696079864
+[21:10:56] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[21:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=93, z=16}
+[21:11:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=1, y=93, z=16}
+[21:11:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=93, z=16}
+[21:11:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=94, z=16}
+[21:11:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=94, z=16}
+[21:11:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=94, z=16}
+[21:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=94, z=16}
+[21:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=94, z=16}
+[21:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=94, z=16}
+[21:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=94, z=16}
+[21:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=94, z=16}
+[21:11:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=94, z=16}
+[21:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=94, z=16}
+[21:11:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=3, y=95, z=16}
+[21:11:26] [Server thread/INFO]: Player literal{AaAgOrAt} chose Origin: origins-plus-plus:reign_farmer, for layer: origins:origin
+[21:11:42] [Server thread/INFO]: Player literal{AaAgOrAt} chose Origin: origins:shulk, for layer: origins:origin
+[21:11:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=-4, y=95, z=15}
+[21:11:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=-4, y=94, z=16}
+[21:11:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=93, z=20} class_2338{x=-3, y=94, z=16}
+[21:11:55] [Server thread/INFO]: Player literal{AaAgOrAt} chose Origin: origins-plus-plus:rat, for layer: origins:origin
+[21:11:57] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:12:14] [Server thread/INFO]: Smurfcz was blown up by Creeper
+[21:12:31] [Server thread/INFO]: Player literal{AaAgOrAt} chose Origin: origins-plus-plus:mouse, for layer: origins:origin
+[21:14:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-5, y=92, z=24} class_2338{x=3, y=98, z=15}
+[21:14:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-5, y=92, z=24} class_2338{x=3, y=98, z=15}
+[21:14:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-5, y=92, z=24} class_2338{x=3, y=98, z=15}
+[21:14:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-5, y=92, z=24} class_2338{x=3, y=94, z=16}
+[21:14:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-5, y=92, z=24} class_2338{x=3, y=93, z=16}
+[21:14:38] [Server thread/INFO]: AaAgOrAt lost connection: Disconnected
+[21:14:38] [Server thread/INFO]: AaAgOrAt left the game
+[21:14:49] [User Authenticator #3/INFO]: UUID of player AaAgOrAt is 177ea511-04c9-4c03-9b4a-d85a971c45e0
+[21:14:50] [Server thread/INFO]: AaAgOrAt[/192.168.193.78:54356] logged in with entity id 5510 at (-3.354159427445568, 96.55999994635582, 17.281094107298998)
+[21:14:50] [Server thread/INFO]: Syncing config to AaAgOrAt (177ea511-04c9-4c03-9b4a-d85a971c45e0)
+[21:14:50] [Server thread/INFO]: AaAgOrAt joined the game
+[21:14:50] [Server thread/WARN]: Skipping Entity with id 
+[21:14:58] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:03] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:05] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:10] [User Authenticator #4/INFO]: UUID of player grapejuicegamer is 83818d26-cbf9-4650-82e2-da331ea922e5
+[21:15:10] [Netty Epoll Server IO #0/INFO]: Disconnecting com.mojang.authlib.GameProfile@5aab1e11[id=83818d26-cbf9-4650-82e2-da331ea922e5,name=grapejuicegamer,properties={textures=[com.mojang.authlib.properties.Property@3d28d1dc]},legacy=false] (/192.168.193.136:54869): This server requires you to install the Origins mod (v1.10.0) to play.
+[21:15:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@5aab1e11[id=83818d26-cbf9-4650-82e2-da331ea922e5,name=grapejuicegamer,properties={textures=[com.mojang.authlib.properties.Property@3d28d1dc]},legacy=false] (/192.168.193.136:54869) lost connection: This server requires you to install the Origins mod (v1.10.0) to play.
+[21:15:13] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:13] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:14] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:15] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:15] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:16] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:16] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:17] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:17] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:17] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:18] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:18] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:19] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:19] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:15:44] [Server thread/INFO]: AaAgOrAt lost connection: Disconnected
+[21:15:44] [Server thread/INFO]: AaAgOrAt left the game
+[21:15:54] [Server thread/INFO]: Smurfcz lost connection: Disconnected
+[21:15:54] [Server thread/INFO]: Smurfcz left the game
+[21:16:04] [User Authenticator #5/INFO]: UUID of player Smurfcz is ee014088-2fe9-4d82-b545-ead2e808306a
+[21:16:04] [Server thread/INFO]: Smurfcz[/192.168.193.3:63290] logged in with entity id 5999 at (14.35279725771417, 91.0, 10.38602281845356)
+[21:16:04] [Server thread/INFO]: Syncing config to Smurfcz (ee014088-2fe9-4d82-b545-ead2e808306a)
+[21:16:04] [Server thread/INFO]: Smurfcz joined the game
+[21:16:11] [Server thread/INFO]: Smurfcz was blown up by Creeper
+[21:16:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-7, y=96, z=5}
+[21:16:54] [Server thread/INFO]: Smurfcz was slain by Vindicator
+[21:17:02] [Server thread/INFO]: Smurfcz was shot by Skeleton
+[21:17:10] [Server thread/INFO]: Smurfcz was slain by Vindicator
+[21:17:52] [User Authenticator #6/INFO]: UUID of player grapejuicegamer is 83818d26-cbf9-4650-82e2-da331ea922e5
+[21:17:52] [Server thread/INFO]: grapejuicegamer[/192.168.193.136:55046] logged in with entity id 7732 at (7.5, 94.0, -2.5)
+[21:17:52] [Server thread/INFO]: Syncing config to grapejuicegamer (83818d26-cbf9-4650-82e2-da331ea922e5)
+[21:17:52] [Server thread/INFO]: grapejuicegamer joined the game
+[21:17:53] [Server thread/INFO]: grapejuicegamer lost connection: Disconnected
+[21:17:53] [Server thread/INFO]: grapejuicegamer left the game
+[21:18:17] [Server thread/INFO]: Smurfcz was shot by Illusioner
+[21:18:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-5, y=95, z=-4}
+[21:18:23] [Server thread/INFO]: Smurfcz was slain by Vindicator
+[21:18:30] [Server thread/INFO]: Smurfcz was slain by Vindicator
+[21:18:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=4, y=93, z=-2}
+[21:18:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=4, y=93, z=-3}
+[21:18:38] [Server thread/INFO]: Smurfcz was slain by Vindicator
+[21:18:47] [Server thread/INFO]: You whisper to Smurfcz: noob
+[21:18:54] [User Authenticator #7/INFO]: UUID of player grapejuicegamer is 83818d26-cbf9-4650-82e2-da331ea922e5
+[21:18:54] [Server thread/INFO]: grapejuicegamer[/192.168.193.136:55114] logged in with entity id 8717 at (7.5, 94.0, -2.5)
+[21:18:54] [Server thread/INFO]: Syncing config to grapejuicegamer (83818d26-cbf9-4650-82e2-da331ea922e5)
+[21:18:54] [Server thread/INFO]: grapejuicegamer joined the game
+[21:18:55] [Server thread/INFO]: grapejuicegamer lost connection: Disconnected
+[21:18:55] [Server thread/INFO]: grapejuicegamer left the game
+[21:19:43] [User Authenticator #8/INFO]: UUID of player AaAgOrAt is 177ea511-04c9-4c03-9b4a-d85a971c45e0
+[21:19:43] [Server thread/INFO]: AaAgOrAt[/192.168.193.78:54754] logged in with entity id 8863 at (19.459484669857627, 90.12922973197647, 24.680295304156974)
+[21:19:44] [Server thread/INFO]: Syncing config to AaAgOrAt (177ea511-04c9-4c03-9b4a-d85a971c45e0)
+[21:19:44] [Server thread/INFO]: AaAgOrAt joined the game
+[21:20:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=92, z=11}
+[21:20:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=2, y=93, z=11}
+[21:20:37] [Server thread/INFO]: Smurfcz was slain by Vindicator
+[21:20:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=1, y=98, z=10}
+[21:20:49] [Server thread/INFO]: Smurfcz was slain by Vindicator
+[21:20:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-6, y=96, z=10}
+[21:20:53] [Server thread/INFO]: Player empty chose Origin: origins:human, for layer: origins:origin
+[21:21:05] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:21:24] [Server thread/INFO]: [AaAgOrAt: Applied effect Night Vision to AaAgOrAt]
+[21:21:51] [Server thread/INFO]: [AaAgOrAt: Removed every effect from AaAgOrAt]
+[21:21:55] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[21:22:14] [pool-4-thread-2/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy]] from pos class_2338{x=53, y=74, z=-245}
+[21:22:27] [Server thread/INFO]: AaAgOrAt was shot by Stray
+[21:22:33] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[21:24:45] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=48, z=214}
+[21:24:45] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=48, z=214}
+[21:24:45] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=49, z=214}
+[21:24:45] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=48, z=214}
+[21:24:45] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=49, z=214}
+[21:24:45] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=49, z=214}
+[21:24:45] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=50, z=214}
+[21:24:45] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=50, z=214}
+[21:24:45] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=50, z=214}
+[21:24:47] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=48, z=214}
+[21:24:47] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=48, z=214}
+[21:24:47] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=49, z=214}
+[21:24:47] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=48, z=214}
+[21:24:47] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=49, z=214}
+[21:24:47] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=49, z=214}
+[21:24:47] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=50, z=214}
+[21:24:47] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=50, z=214}
+[21:24:47] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=50, z=214}
+[21:24:55] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=48, z=214}
+[21:24:55] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=48, z=214}
+[21:24:55] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=49, z=214}
+[21:24:55] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=48, z=214}
+[21:24:55] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=49, z=214}
+[21:24:55] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=49, z=214}
+[21:24:55] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=50, z=214}
+[21:24:55] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=50, z=214}
+[21:24:55] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=50, z=214}
+[21:26:01] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[21:26:13] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-178, y=-45, z=-85}
+[21:26:13] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-178, y=-41, z=-89}
+[21:26:13] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-172, y=-54, z=-92}
+[21:26:13] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-172, y=-54, z=-93}
+[21:26:13] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-175, y=-41, z=-90}
+[21:26:14] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=-177, y=-55, z=-77}
+[21:26:14] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=-181, y=-50, z=-73}
+[21:26:14] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=-182, y=-45, z=-75}
+[21:26:14] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=-172, y=-54, z=-70}
+[21:26:16] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-195, y=-54, z=-92}
+[21:26:16] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-54, z=-88}
+[21:26:16] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-50, z=-85}
+[21:26:16] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-183, y=-51, z=-89}
+[21:26:16] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-186, y=-50, z=-90}
+[21:26:16] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-186, y=-45, z=-87}
+[21:26:16] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-189, y=-45, z=-84}
+[21:26:16] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-54, z=-74}
+[21:26:16] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-50, z=-77}
+[21:26:16] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=-187, y=-50, z=-72}
+[21:26:16] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=-184, y=-45, z=-75}
+[21:31:12] [Server thread/INFO]: AaAgOrAt has made the advancement [Stone Age]
+[21:36:15] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[21:36:22] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[21:36:24] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[21:36:37] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[21:36:38] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[21:36:59] [Worker-Main-10/ERROR]: Hanging entity at invalid position: class_2338{x=-185, y=-46, z=-142}
+[21:37:00] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=-176, y=-50, z=-133}
+[21:37:00] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=-172, y=-50, z=-135}
+[21:37:02] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=-187, y=-46, z=-151}
+[21:37:02] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=-187, y=-46, z=-143}
+[21:37:09] [Server thread/INFO]: [AaAgOrAt: Teleported AaAgOrAt to Smurfcz]
+[21:38:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=105, z=-7}
+[21:38:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=2, y=105, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=2, y=105, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=2, y=105, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=2, y=105, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:38:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:38:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:39:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=106, z=-8}
+[21:40:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:40:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:40:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:40:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:40:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=107, z=-8}
+[21:40:40] [Server thread/INFO]: Smurfcz was slain by Vindicator
+[21:40:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-5, y=94, z=12}
+[21:40:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-4, y=95, z=11}
+[21:40:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-4, y=95, z=10}
+[21:40:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-4, y=95, z=10}
+[21:40:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-4, y=95, z=10}
+[21:40:54] [Server thread/INFO]: <AaAgOrAt> what
+[21:41:02] [Server thread/INFO]: Smurfcz was slain by Zombie
+[21:41:08] [Server thread/INFO]: AaAgOrAt has made the advancement [Monster Hunter]
+[21:41:09] [Server thread/INFO]: <Smurfcz> I CANT DESTROY BLOCKS
+[21:41:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=1, y=96, z=10}
+[21:41:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=1, y=95, z=10}
+[21:41:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=0, y=93, z=10}
+[21:41:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=0, y=93, z=10}
+[21:41:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=0, y=93, z=10}
+[21:41:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=0, y=94, z=7}
+[21:41:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=0, y=94, z=7}
+[21:41:14] [Server thread/INFO]: <AaAgOrAt> this is the spawn
+[21:41:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=2, y=93, z=6}
+[21:41:15] [Server thread/INFO]: <AaAgOrAt> noob
+[21:41:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=94, z=7}
+[21:41:33] [Server thread/INFO]: <AaAgOrAt> In the spawn you cannot
+[21:41:35] [Server thread/INFO]: <AaAgOrAt> break blocks
+[21:41:44] [Server thread/INFO]: Smurfcz was slain by Vindicator
+[21:41:49] [User Authenticator #9/INFO]: UUID of player grapejuicegamer is 83818d26-cbf9-4650-82e2-da331ea922e5
+[21:41:49] [Server thread/INFO]: grapejuicegamer[/192.168.193.136:56942] logged in with entity id 22549 at (7.5, 94.0, -2.5)
+[21:41:49] [Server thread/INFO]: Syncing config to grapejuicegamer (83818d26-cbf9-4650-82e2-da331ea922e5)
+[21:41:49] [Server thread/INFO]: grapejuicegamer joined the game
+[21:41:49] [Server thread/INFO]: grapejuicegamer lost connection: Disconnected
+[21:41:49] [Server thread/INFO]: grapejuicegamer left the game
+[21:42:04] [Server thread/INFO]: Smurfcz was slain by Vex
