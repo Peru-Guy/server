@@ -725,3 +725,230 @@ com.google.gson.JsonParseException: An ingredient entry needs either a tag or an
 [22:00:40] [Server thread/INFO]: Syncing config to grapejuicegamer (83818d26-cbf9-4650-82e2-da331ea922e5)
 [22:00:40] [Server thread/INFO]: grapejuicegamer joined the game
 [22:01:12] [Server thread/INFO]: Player literal{grapejuicegamer} chose Origin: origins:shulk, for layer: origins:origin
+[22:03:34] [Server thread/INFO]: Smurfcz was impaled by Drowned
+[22:03:37] [Server thread/INFO]: AaAgOrAt was impaled by Drowned
+[22:03:59] [Server thread/INFO]: Smurfcz was impaled by Drowned
+[22:05:20] [Server thread/WARN]: Smurfcz moved wrongly!
+[22:05:27] [Server thread/INFO]: Smurfcz was slain by Vex
+[22:05:48] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:05:49] [Server thread/INFO]: Smurfcz was slain by Vindicator
+[22:05:54] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:05:57] [Server thread/INFO]: Player empty chose Origin: origins:shulk, for layer: origins:origin
+[22:06:14] [Server thread/INFO]: Smurfcz was shot by Illusioner
+[22:06:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-9, y=105, z=11}
+[22:06:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-9, y=105, z=11}
+[22:07:43] [Server thread/INFO]: <AaAgOrAt> x=-193
+[22:07:47] [Server thread/INFO]: <AaAgOrAt> z=-119
+[22:08:24] [Server thread/INFO]: <Smurfcz> -198
+[22:08:30] [Server thread/INFO]: <Smurfcz> -123
+[22:08:47] [pool-4-thread-3/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos class_2338{x=-181, y=70, z=-475}
+[22:08:49] [Server thread/WARN]: grapejuicegamer moved too quickly! 0.004876933582277587,0.24785109963254115,10.37872752120974
+[22:08:58] [Server thread/INFO]: grapejuicegamer has made the advancement [Stone Age]
+[22:09:03] [pool-4-thread-3/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos class_2338{x=5, y=70, z=-565}
+[22:09:05] [Server thread/INFO]: grapejuicegamer has made the advancement [Getting an Upgrade]
+[22:09:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[22:09:22] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:09:24] [Server thread/INFO]: AaAgOrAt has made the advancement [This Must be a Sign!]
+[22:09:29] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:09:32] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:09:47] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:09:48] [Server thread/INFO]: AaAgOrAt hit the ground too hard
+[22:10:06] [Server thread/INFO]: grapejuicegamer was shot by Skeleton
+[22:10:36] [Server thread/INFO]: Smurfcz has made the advancement [Stone Age]
+[22:10:57] [Server thread/INFO]: grapejuicegamer has made the advancement [Monster Hunter]
+[22:11:11] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:11:16] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:11:24] [Server thread/INFO]: Smurfcz has made the advancement [Sweet Dreams]
+[22:11:52] [Server thread/INFO]: Smurfcz lost connection: Disconnected
+[22:11:52] [Server thread/INFO]: Smurfcz left the game
+[22:12:27] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:12:38] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:13:25] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:15:08] [Server thread/INFO]: grapejuicegamer was shot by Skeleton
+[22:15:31] [Server thread/INFO]: grapejuicegamer lost connection: Disconnected
+[22:15:31] [Server thread/INFO]: grapejuicegamer left the game
+[22:20:47] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:21:12] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:22:34] [User Authenticator #17/INFO]: UUID of player Smurfcz is ee014088-2fe9-4d82-b545-ead2e808306a
+[22:22:34] [Server thread/INFO]: Smurfcz[/192.168.193.3:50860] logged in with entity id 45686 at (-443.5, 83.0625, -394.5)
+[22:22:34] [Server thread/INFO]: Syncing config to Smurfcz (ee014088-2fe9-4d82-b545-ead2e808306a)
+[22:22:34] [Server thread/INFO]: Smurfcz joined the game
+[22:22:50] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:24:08] [Server thread/INFO]: <AaAgOrAt> 10k
+[22:24:12] [Server thread/INFO]: <AaAgOrAt> x=-491
+[22:24:16] [Server thread/INFO]: <AaAgOrAt> z=-1041
+[22:24:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-637, y=64, z=-1015} class_2338{x=-637, y=63, z=-1016}
+[22:25:03] [Server thread/INFO]: AaAgOrAt has made the advancement [Safe Haven]
+[22:26:28] [Server thread/INFO]: Smurfcz has made the advancement [Intruder Alert]
+[22:26:39] [Server thread/INFO]: AaAgOrAt has made the advancement [Call For Adventure]
+[22:26:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6915ms or 138 ticks behind
+[22:28:18] [Server thread/INFO]: AaAgOrAt has made the advancement [Sweet Dreams]
+[22:29:24] [Worker-Main-10/ERROR]: Hanging entity at invalid position: class_2338{x=217, y=48, z=159}
+[22:29:37] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=216, y=47, z=211}
+[22:29:38] [pool-4-thread-4/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=-1451, y=99, z=-1109}
+[22:29:38] [pool-4-thread-5/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos class_2338{x=-1451, y=75, z=-1403}
+[22:29:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2695ms or 53 ticks behind
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 9.004868294239202,0.0,-5.049170047206985
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 9.722542057141766,0.0,-5.447291941726235
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 10.46582227345715,0.0,-5.835664912834432
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 11.233919425764554,0.0,-6.211244623228708
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 12.025663315505994,0.0,-6.570466397495807
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 12.839338881114315,0.0,-6.9093282667867015
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 13.672828054118156,0.0,-7.224161776824303
+[22:29:41] [Server thread/WARN]: Smurfcz moved too quickly! -17.154521501045792,-2.2614841870186524,2.4514936712928375
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 14.523661367915906,0.0,-7.511653038434474
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 15.38907548576691,0.0,-7.768869957350603
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 16.266063811474567,0.0,-7.993272174242293
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 17.15143544392322,0.0,-8.18272582390955
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 18.041861562450606,0.0,-8.335500404747677
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 18.93392088265074,0.0,-8.45026396179901
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 19.824148606354925,0.0,-8.52607736031473
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 20.70973640596071,0.0,-8.562604168850726
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 21.588587406378167,0.0,-8.559936566261399
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 22.459334895941424,0.0,-8.5184612532953
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 23.32133793231219,0.0,-8.438767299340952
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 24.174666547710103,0.0,-8.321595931260504
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 25.020070158406725,0.0,-8.167827472937688
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 25.858945636521753,0.0,-7.978505631298958
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 26.692625646401552,0.0,-7.75468482588883
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 27.522383077574887,0.0,-7.497428439797773
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 28.349431785762818,0.0,-7.207806278557541
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 29.174923877831304,0.0,-6.886890671698666
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 29.99995436472102,0.0,-6.535755386639721
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 30.82556218974338,0.0,-6.155473398283334
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 31.652731334099713,0.0,-5.747114744197688
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 32.48239198876536,0.0,-5.311744497200948
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 33.31542511716509,0.0,-4.850422749172026
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 34.15325255526818,0.0,-4.364570265955535
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 34.99776780581044,0.0,-3.856027770321589
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 35.85124268344498,0.0,-3.3271335658848784
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 36.71620221760173,0.0,-2.7808081690908466
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 37.594829168663125,0.0,-2.220092874946886
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 38.48897095906574,0.0,-1.648117804979961
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 39.40014250575098,0.0,-1.0680634794397292
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 40.329536789274016,0.0,-0.4831310631220731
+[22:29:41] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 32.96470097038235,0.0,4.747964397356441
+[22:29:42] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 33.93270546709175,0.0,5.3337854248319445
+[22:29:42] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 34.92028338180182,0.0,5.917061459914635
+[22:29:42] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 35.92727854777746,0.0,6.496779987247351
+[22:29:42] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 36.95350494386469,0.0,7.071965451233382
+[22:29:42] [Server thread/WARN]: Boat (vehicle of AaAgOrAt) moved too quickly! 37.99874935761062,0.0,7.641675712173765
+[22:30:35] [Server thread/INFO]: <AaAgOrAt> x=-145
+[22:30:37] [Server thread/INFO]: <AaAgOrAt> z=-932
+[22:30:39] [Server thread/INFO]: <Smurfcz> -1586 -1052
+[22:31:15] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=217, y=48, z=159}
+[22:31:54] [Server thread/INFO]: Smurfcz has made the advancement [Safe Haven]
+[22:33:05] [Server thread/INFO]: Smurfcz has made the advancement [Call For Adventure]
+[22:36:17] [Server thread/INFO]: AaAgOrAt has made the advancement [Acquire Hardware]
+[22:37:11] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:37:16] [Server thread/INFO]: AaAgOrAt has made the advancement [Diamonds!]
+[22:37:17] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:38:34] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:38:41] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:39:15] [pool-4-thread-6/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos class_2338{x=-2085, y=73, z=-1499}
+[22:39:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[22:39:18] [Server thread/WARN]: Smurfcz moved too quickly! -12.030515271041622,-3.004540931756992,-12.319739326303079
+[22:39:18] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=-2085, y=73, z=-1499} but found not block entity block Block{minecraft:air} at location
+[22:39:18] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:air} but failed at location class_2338{x=-2085, y=73, z=-1499}
+[22:39:49] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=202, y=47, z=211}
+[22:39:58] [Server thread/INFO]: <AaAgOrAt> SLEEEP
+[22:40:58] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-318, y=-45, z=-204}
+[22:40:58] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-318, y=-45, z=-202}
+[22:40:59] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-284, y=-57, z=-394}
+[22:41:03] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-320, y=-45, z=-203}
+[22:41:06] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-286, y=-57, z=-393}
+[22:45:34] [Server thread/INFO]: Smurfcz has made the advancement [Not Today, Thank You]
+[22:46:06] [Server thread/INFO]: Smurfcz has made the advancement [Unknown Technology]
+[22:46:33] [pool-4-thread-7/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=-2635, y=70, z=-1381}
+[22:46:56] [Server thread/INFO]: <Smurfcz> -2500 -1315
+[22:47:02] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:47:30] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:49:51] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[22:49:55] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[22:50:49] [Server thread/INFO]: <AaAgOrAt> SLEEEEEEEEEEEEEEP
+[22:59:13] [Server thread/INFO]: AaAgOrAt has made the advancement [Unknown Technology]
+[23:03:43] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Spectator Mode]
+[23:03:49] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[23:03:50] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Creative Mode]
+[23:03:56] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[23:04:00] [Server thread/INFO]: Smurfcz lost connection: Disconnected
+[23:04:00] [Server thread/INFO]: Smurfcz left the game
+[23:04:07] [User Authenticator #18/INFO]: UUID of player Smurfcz is ee014088-2fe9-4d82-b545-ead2e808306a
+[23:04:08] [Server thread/INFO]: Smurfcz[/192.168.193.3:53296] logged in with entity id 75499 at (-2708.300000011921, 39.0, -1349.300000011921)
+[23:04:08] [Server thread/INFO]: Syncing config to Smurfcz (ee014088-2fe9-4d82-b545-ead2e808306a)
+[23:04:08] [Server thread/INFO]: Smurfcz joined the game
+[23:04:44] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Spectator Mode]
+[23:04:54] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[23:05:34] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-193, y=-45, z=-211}
+[23:05:34] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-183, y=-57, z=-210}
+[23:05:34] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-187, y=-49, z=-219}
+[23:05:34] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-189, y=-45, z=-211}
+[23:05:34] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-191, y=-45, z=-211}
+[23:07:01] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Spectator Mode]
+[23:07:13] [Server thread/INFO]: [AaAgOrAt: Set own game mode to Survival Mode]
+[23:11:12] [Server thread/INFO]: Smurfcz went up in flames
+[23:11:37] [Server thread/INFO]: Smurfcz has made the advancement [Diamonds!]
+[23:12:30] [Server thread/INFO]: Smurfcz tried to swim in lava
+[23:13:43] [Server thread/INFO]: Smurfcz was slain by Zombie
+[23:13:52] [Server thread/INFO]: AaAgOrAt has made the advancement [Hot Stuff]
+[23:20:56] [Server thread/INFO]: AaAgOrAt has made the advancement [We Need to Go Deeper]
+[23:20:57] [Worker-Main-9/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78268, l='ServerLevel[world]', x=-303.10, y=31.00, z=-210.00] as it would cause deadlock
+[23:20:57] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78270, l='ServerLevel[world]', x=-303.10, y=31.00, z=-210.00] as it would cause deadlock
+[23:20:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2750ms or 55 ticks behind
+[23:21:00] [Worker-Main-18/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78303, l='ServerLevel[world]', x=-414.00, y=31.00, z=-221.00] as it would cause deadlock
+[23:21:00] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78306, l='ServerLevel[world]', x=-414.00, y=31.00, z=-221.00] as it would cause deadlock
+[23:21:05] [Worker-Main-10/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78400, l='ServerLevel[world]', x=-228.00, y=31.00, z=-273.00] as it would cause deadlock
+[23:21:05] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78403, l='ServerLevel[world]', x=-228.00, y=31.00, z=-273.00] as it would cause deadlock
+[23:21:13] [Worker-Main-10/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78573, l='ServerLevel[world]', x=-486.00, y=31.00, z=-36.00] as it would cause deadlock
+[23:21:13] [Worker-Main-10/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78575, l='ServerLevel[world]', x=-485.00, y=31.00, z=-36.00] as it would cause deadlock
+[23:21:13] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78578, l='ServerLevel[world]', x=-486.00, y=31.00, z=-36.00] as it would cause deadlock
+[23:21:13] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78580, l='ServerLevel[world]', x=-485.00, y=31.00, z=-36.00] as it would cause deadlock
+[23:21:14] [Worker-Main-9/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78602, l='ServerLevel[world]', x=-510.00, y=31.00, z=-322.00] as it would cause deadlock
+[23:21:14] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78605, l='ServerLevel[world]', x=-510.00, y=31.00, z=-322.00] as it would cause deadlock
+[23:21:20] [Worker-Main-9/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78742, l='ServerLevel[world]', x=-536.00, y=101.00, z=-154.00] as it would cause deadlock
+[23:21:20] [Worker-Main-9/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78744, l='ServerLevel[world]', x=-538.00, y=31.00, z=-335.10] as it would cause deadlock
+[23:21:20] [Worker-Main-9/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78749, l='ServerLevel[world]', x=-535.00, y=31.00, z=-319.00] as it would cause deadlock
+[23:21:20] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78748, l='ServerLevel[world]', x=-536.00, y=101.00, z=-154.00] as it would cause deadlock
+[23:21:20] [Worker-Main-9/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78752, l='ServerLevel[world]', x=-532.00, y=31.00, z=-316.00] as it would cause deadlock
+[23:21:20] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78754, l='ServerLevel[world]', x=-538.00, y=31.00, z=-335.10] as it would cause deadlock
+[23:21:20] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78756, l='ServerLevel[world]', x=-535.00, y=31.00, z=-319.00] as it would cause deadlock
+[23:21:20] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78758, l='ServerLevel[world]', x=-532.00, y=31.00, z=-316.00] as it would cause deadlock
+[23:21:20] [Worker-Main-11/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78761, l='ServerLevel[world]', x=-123.00, y=31.00, z=-213.00] as it would cause deadlock
+[23:21:20] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/78764, l='ServerLevel[world]', x=-123.00, y=31.00, z=-213.00] as it would cause deadlock
+[23:23:53] [Server thread/INFO]: AaAgOrAt lost connection: Disconnected
+[23:23:53] [Server thread/INFO]: AaAgOrAt left the game
+[23:24:15] [Server thread/INFO]: Smurfcz lost connection: Disconnected
+[23:24:15] [Server thread/INFO]: Smurfcz left the game
+[23:30:15] [User Authenticator #19/INFO]: UUID of player AaAgOrAt is 177ea511-04c9-4c03-9b4a-d85a971c45e0
+[23:30:16] [Server thread/INFO]: AaAgOrAt[/192.168.193.78:63932] logged in with entity id 79145 at (-2704.544503610941, 68.0, -1345.958941233817)
+[23:30:16] [Server thread/INFO]: Syncing config to AaAgOrAt (177ea511-04c9-4c03-9b4a-d85a971c45e0)
+[23:30:16] [Server thread/INFO]: AaAgOrAt joined the game
+[23:30:58] [Worker-Main-110/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79821, l='ServerLevel[world]', x=-277.00, y=31.00, z=-411.00] as it would cause deadlock
+[23:30:58] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79824, l='ServerLevel[world]', x=-277.00, y=31.00, z=-411.00] as it would cause deadlock
+[23:30:58] [Worker-Main-111/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79827, l='ServerLevel[world]', x=-545.00, y=31.00, z=-283.00] as it would cause deadlock
+[23:30:58] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79832, l='ServerLevel[world]', x=-545.00, y=31.00, z=-283.00] as it would cause deadlock
+[23:31:00] [Worker-Main-111/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79841, l='ServerLevel[world]', x=-431.10, y=31.00, z=-417.00] as it would cause deadlock
+[23:31:00] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79846, l='ServerLevel[world]', x=-431.10, y=31.00, z=-417.00] as it would cause deadlock
+[23:31:00] [Worker-Main-111/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79851, l='ServerLevel[world]', x=-436.00, y=31.00, z=-422.00] as it would cause deadlock
+[23:31:00] [Worker-Main-111/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79854, l='ServerLevel[world]', x=-216.00, y=31.00, z=-428.00] as it would cause deadlock
+[23:31:00] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79856, l='ServerLevel[world]', x=-436.00, y=31.00, z=-422.00] as it would cause deadlock
+[23:31:00] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79859, l='ServerLevel[world]', x=-216.00, y=31.00, z=-428.00] as it would cause deadlock
+[23:31:05] [Worker-Main-109/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79877, l='ServerLevel[world]', x=-66.00, y=31.00, z=94.00] as it would cause deadlock
+[23:31:05] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79880, l='ServerLevel[world]', x=-66.00, y=31.00, z=94.00] as it would cause deadlock
+[23:31:07] [Worker-Main-111/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79894, l='ServerLevel[world]', x=-39.00, y=58.00, z=-253.00] as it would cause deadlock
+[23:31:07] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79896, l='ServerLevel[world]', x=-39.00, y=58.00, z=-253.00] as it would cause deadlock
+[23:31:09] [Worker-Main-110/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79909, l='ServerLevel[world]', x=-21.00, y=31.00, z=71.00] as it would cause deadlock
+[23:31:09] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79911, l='ServerLevel[world]', x=-21.00, y=31.00, z=71.00] as it would cause deadlock
+[23:31:10] [Worker-Main-111/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79917, l='ServerLevel[world]', x=-200.00, y=31.00, z=-456.00] as it would cause deadlock
+[23:31:10] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79919, l='ServerLevel[world]', x=-200.00, y=31.00, z=-456.00] as it would cause deadlock
+[23:31:47] [Worker-Main-110/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79978, l='ServerLevel[world]', x=-101.00, y=31.00, z=148.00] as it would cause deadlock
+[23:31:47] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/79980, l='ServerLevel[world]', x=-101.00, y=31.00, z=148.00] as it would cause deadlock
+[23:32:25] [Worker-Main-110/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/80064, l='ServerLevel[world]', x=-499.00, y=31.00, z=182.00] as it would cause deadlock
+[23:32:25] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/80066, l='ServerLevel[world]', x=-499.00, y=31.00, z=182.00] as it would cause deadlock
+[23:33:41] [Worker-Main-109/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/80247, l='ServerLevel[world]', x=115.00, y=92.00, z=59.00] as it would cause deadlock
+[23:33:41] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/80249, l='ServerLevel[world]', x=115.00, y=92.00, z=59.00] as it would cause deadlock
+[23:37:33] [Server thread/INFO]: AaAgOrAt has made the advancement [Those Were the Days]
+[23:38:03] [Worker-Main-111/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/80878, l='ServerLevel[world]', x=-143.00, y=31.00, z=-557.00] as it would cause deadlock
+[23:38:03] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/80881, l='ServerLevel[world]', x=-143.00, y=31.00, z=-557.00] as it would cause deadlock
+[23:39:56] [Server thread/INFO]: AaAgOrAt lost connection: Disconnected
+[23:39:56] [Server thread/INFO]: AaAgOrAt left the game
